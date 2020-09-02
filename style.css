@@ -4,7 +4,7 @@
 
 #board{
   position: absolute;
-  left:500px;
+  left:350px;
   top:150px;
   width: 400px;
   height:400px;
@@ -19,6 +19,7 @@
 }
 
 #horizontal-line-one{
+  margin-top:100px;
   width: 400px;
   height:10px;
   border-radius: 2px;
@@ -28,5 +29,19 @@
   margin-top:100px;
   width: 400px;
   height:10px;
+  border-radius: 2px;
+}
+
+#vertical-line-one{
+  margin-left:100px;
+  width: 10px;
+  height:400px;
+  border-radius: 2px;
+}
+
+#vertical-line-two{
+  margin-left:100px;
+  width: 10px;
+  height:400px;
   border-radius: 2px;
 }
