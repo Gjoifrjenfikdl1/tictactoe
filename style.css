@@ -7,6 +7,8 @@
   position: absolute;
   left:700px;
   top:300px;
+  width: 500px;
+  height:500px;
   margin:0;
   padding:0;
 }
