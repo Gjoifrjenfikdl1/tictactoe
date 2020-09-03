@@ -49,3 +49,49 @@
   height:400px;
   border-radius:2px;
 }
+
+#turn-text{
+  position: absolute;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 25px;
+  left: 450px;
+  top: 600px;
+}
+
+.x-elements{
+  background-color: transparent;
+  position: absolute;
+}
+
+.line-one{
+  background-color: black;
+  margin-left: 0px;
+  margin-top: 65px;
+  width: 130px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  height: 10px;
+}
+
+.line-two{
+  background-color: black;
+  margin-left: 5px;
+  margin-top: -10px;
+  width: 130px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  height: 10px;
+}
+
+.circle-elements{
+  position: absolute;
+  border-style: solid;
+  width: 50px;
+  border-radius: 100px;
+  border-color: black;
+  border-width: thick;
+
+}
